@@ -54,7 +54,7 @@
 持有全局的superKey，负责对所有节点启动时的授权请求进行响应，授权。
 
 - Key Manager必须实时在线，响应节点的启动请求。
-- 当节点启动时，发来cipherDataKey，Key Manager用superKey对cipherDataKey进行解密，若解密成功，就将节点的dataK返回给节点。
+- 当节点启动时，发来cipherDataKey，Key Manager用superKey对cipherDataKey进行解密，若解密成功，就将节点的dataKey返回给节点。
 - Key Manager只能在内网访问，机构内的外网无法访问Key Manager.
 
 
